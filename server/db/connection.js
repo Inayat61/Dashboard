@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config({ path: "../config.env" });
 const conn = mongoose
-  .connect(
-    "mongodb+srv://admin:parAdmin123@dummycluster.ogmcdxq.mongodb.net/dummyDb?retryWrites=true&w=majority"
+  .connect(//key ////
   )
   .then((db) => {
     console.log("Connected to Database");
